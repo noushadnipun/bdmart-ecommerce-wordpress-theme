@@ -1,0 +1,116 @@
+/*
+Theme Name: BD MART By Riptware
+Author: Noushad Nipun
+
+*/
+body {
+background-color: #f9f9f930 !important;
+}
+.nav-logo {
+    width: 125px !important;
+}
+
+.nav-link:not(:hover) {
+  color: #000 !important;
+}
+a:hover {color: #f44336 !important;}
+
+@media (min-width: 760px){
+header {box-shadow: 0 0rem 0rem rgba(0,0,0,.075) !important;}
+.index-top {z-index: 1040}
+
+/* Search */
+.pc-search-form {width: 100%;}
+.pc-search-box {width: 100% !important;}
+
+/*slider*/
+.swiper-container {top:-15px;}
+
+/* Main Conetn*/
+.pc-main-content {margin-top: 54px !important;}
+}
+
+
+
+
+
+
+/* Menu */
+
+.pc-header {
+    height: 38px;
+    position: absolute;
+    top: 55px;
+	left: 0px;
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+	-webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
+    transition: background 2s;
+	 background: #fff;
+	 -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075) !important;
+	
+}
+x.pc-header.fixed-top {top: 55px !important; -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075) !important;
+}
+.pc-header ul {
+    margin: auto;
+}
+.pc-header ul li {}
+.pc-header ul li a {color: #000 !important;}
+.pc-header ul li a:hover {color: #f44336 !important;}
+
+/* Mega Menu */
+ul.dropdown-menu li ul {
+	top: 0px;
+    left: 100%;
+}
+
+ul .dropdown-mega li .dropdown-menu  {display: block; position: relative; left: 0px;}
+ul .dropdown-mega li ul.dropdown-menu {
+    background: none;
+    width: 100%;
+    border: 0px;
+    box-shadow: 0 0rem 0rem rgba(0,0,0,.15);
+}
+ul .dropdown-mega > ul.dropdown-menu > li {display: inline-block;}  
+
+
+/* Footer Widget */
+
+.footer-widget {}
+.footer-widget a {color: #495057;}
+.footer-widget ul {padding-left: 0;}
+.footer-widget ul li {list-style: none; padding: .25rem 0rem;}
+.footer-widget a:hover {color: #606ddd; font-weight: 700;}.footer-widget li a {padding: 0rem 0rem !important;}
+
+
+.zoom {width: auto !important; top: 0px !important;}
+
+.col-1 {max-width: 100%}
+.col-2 {max-width: 100%}
+.col-3 {max-width: 100%}
+
+
+/* Quick View */
+.card-product:hover a.yith-wcqv-button {display: block !important;}
+.yith-wcqv-button {
+    display: none !important;
+    outline: none;
+    cursor: pointer;
+	position: absolute;
+	bottom: 290px;
+	left: 100px
+}
+
+/* compare */
+.card-product:hover a.compare {display: block !important;}
+.compare{
+    display: none !important;
+    outline: none;
+    cursor: pointer;
+	position: absolute;
+	bottom: 290px;
+	left: 120px
+}
